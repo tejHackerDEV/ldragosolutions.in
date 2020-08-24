@@ -1,0 +1,129 @@
+* {-webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+} 
+.timeline {
+  
+  position:relative;
+  font:normal bold 16px/1.6rem "Open Sans Condensed";
+  padding:1rem;
+}
+.timeline .circle {
+  
+  position:relative;
+  background:#fff;
+  border:.5rem solid #d70000;
+  border-radius:100%;
+  height:2.25rem;
+  margin:auto;
+  width:2.25rem;
+  vertical-align:middle;
+}
+.timeline ul {
+  
+  position:relative;
+  margin:0;
+  padding:0;
+}
+.timeline em {
+  
+  position:relative;
+  color:#666;
+  display:block;
+  font-weight:bold;
+}
+.timeline li {
+  
+  position:relative;
+  border:0 solid #aaa;
+  color:#000 ;
+  font-family:"Open Sans";
+  list-style-type:none;
+  text-transform:uppercase;
+  padding:1rem 2rem;
+  width:calc(50% + 1px);}
+
+
+.timeline li:after {background:#aaa;border-radius:100%;content:"";display:inline-block;height:1rem;position:absolute;right:calc(-.5rem - 1px);width:1rem;}
+.timeline li:nth-child(even):after {left:calc(-.5rem - 1px);}
+.timeline li:nth-child(odd) {border-right-width:2px;text-align:right;}
+.timeline li:nth-child(even) {border-left-width:2px;left:calc(50% - 1px);}
+
+.container {
+  width: 88%;
+  max-width: 1080px;
+  margin: 0 auto;
+  position: relative
+}
+
+
+.steps {
+  text-align: center;
+  padding: 16pt 0
+}
+
+@media (min-width:992px) {
+  .steps__inner {
+      -js-display: flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+      justify-content: space-around
+  }
+}
+
+.step {
+  padding: 16pt 0;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #eee;
+  overflow: auto
+}
+
+
+.step:first-child {
+  border-top: none
+}
+
+@media (min-width:992px) {
+  .step {
+      border-top: none;
+      width: auto
+  }
+}
+
+.step__media {
+  
+  margin: 16pt 0
+}
+
+@media (min-width:992px) {
+  .step__media {
+      margin: 32pt 0
+  }
+}
+
+.step__image {
+  max-height: 100px;
+  max-width: 222px;
+  margin-top: 8pt;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none
+}
+
+@media (min-width:600px) {
+  .step__image {
+      max-width: none
+  }
+}
+
+.step__text {
+  max-width: 36ch;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto
+}
