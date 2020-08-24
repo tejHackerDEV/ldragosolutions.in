@@ -23,7 +23,7 @@ class contactformController {
             }
 
         } catch (e) {
-            global.snackMsg={data:"INVALID INPUTS Error While Connecting to LDrago..."};
+            global.snackMsg={data:"Error while scheduling meet please try after sometime..."};
             console.log(e)
             res.redirect('/connect');
         }
