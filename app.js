@@ -37,6 +37,6 @@ app.get("/connect", (req, res) => {
   res.render("connect.ejs", snackMsg);
 });
 
-app.listen(process.env.PORT || 3001, () => {
+app.listen(process.env.PORT || 80, () => {
   wLogger.info(`Server Listening at port `);
 });
