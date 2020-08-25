@@ -7,17 +7,18 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Create a stylish landing page for your business startup and get leads for the offered services with this HTML landing page template.">
-    <meta name="author" content="Inovatik">
+        content="LDrago Solutions is a indian based software service startup dreamed to land the client business ideas in to real world.">
+    <meta name="author" content="LDragoSolutions">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="" /> <!-- website name -->
-    <meta property="og:site" content="" /> <!-- website link -->
-    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="LDragoSolutions" /> <!-- website name -->
+    <meta property="og:site" content="ldragosolutions.in" /> <!-- website link -->
+    <meta property="og:title" content="LDrago Solutions" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="We Build- We Test- We Deploy" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="images/logo.jpg" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="images/logo.jpg" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="Software Services" />
 
     <!-- Website Title -->
     <title>LDragoSolutions</title>
@@ -48,7 +49,7 @@
     <!-- end of preloader -->
 
     <div id="snackbar"><%- snackMsg.data %>
-    
+
     </div>
     <% snackMsg.data="Connect with LDrago and schedule meet..." %>
 
@@ -71,27 +72,29 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    
-                        <a class="nav-link page-scroll" href="/">
-                           Home
-                        </a>
+
+                    <a class="nav-link page-scroll" href="/">
+                        Home
+                    </a>
                 </li>
 
                 <li class="nav-item">
-                   
-                        <a class="nav-link page-scroll" href="/ourworks">Our works</a>
-                   
+
+                    <a class="nav-link page-scroll" href="/ourworks">Our works</a>
+
                 </li>
                 <li class="nav-item">
-                    
-                        <a class="nav-link page-scroll" href="/aboutus">About us</a>
-                   
+
+                    <a class="nav-link page-scroll" href="/aboutus">About us</a>
+
                 </li>
 
                 <li class="nav-item">
-                   
-                        <a class="nav-link page-scroll" href="/connect"><font style=" border-bottom: 2px solid #cccccc;padding:2px;">Connect</font></a>
-                    
+
+                    <a class="nav-link page-scroll" href="/connect">
+                        <font style=" border-bottom: 2px solid #cccccc;padding:2px;">Connect</font>
+                    </a>
+
                 </li>
             </ul>
 
@@ -113,8 +116,8 @@
                         <li><i class="fas fa-map-marker-alt"></i> NGO Colony, Kadapa, Andhra Pradesh, INDIA</li>
                         <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:7386220017"> +91 7386220017</a>
                         </li>
-                        <li><i class="fas fa-envelope"></i><a class="turquoise"
-                                href="mailto:ldragosolutions@gmail.com"> ldragosolutions@gmail.com</a></li>
+                        <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:ldragosolutions@gmail.com">
+                                ldragosolutions@gmail.com</a></li>
                     </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -123,27 +126,31 @@
                 <div class="col-lg-6">
 
                     <!-- connect Form -->
-                    <form id="connectForm" method="POST" action="/contactform"  >
+                    <form id="connectForm" method="POST" action="/contactform">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="name"  name="name" onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));" required>
+                            <input type="text" class="form-control-input" id="name" name="name"
+                                onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));"
+                                required>
                             <label class="label-control" for="cname">Name</label>
-                            
+
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control-input" id="mail" name="mail" required>
                             <label class="label-control" for="cemail">Email</label>
-                            
+
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="phone" name="phone" onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));" pattern="[1-9]{1}[0-9]{9}" maxlength="10" required>
+                            <input type="text" class="form-control-input" id="phone" name="phone"
+                                onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));"
+                                pattern="[1-9]{1}[0-9]{9}" maxlength="10" required>
                             <label class="label-control" for="rphone">Phone</label>
-                            
+
                         </div>
-                        <div class="form-group" >
-                            <input type="date"class="form-control-input"  id="date" name="date"  required>
+                        <div class="form-group">
+                            <input type="date" class="form-control-input" id="date" name="date" required>
                             <label class="label-control" for="date">Date</label>
-                            
-                            
+
+
                         </div>
                         <div class="form-group">
                             <select class="form-control-select" id="rselect" name="topic" required>
@@ -156,9 +163,9 @@
                                 <option class="select-option" value="Web Hosting Service">Web Hosting Service</option>
                                 <option class="select-option" value="Domain Registration">Domain Registration</option>
                             </select>
-                            
+
                         </div>
-                        
+
                         <div class="form-group">
                             <button type="submit" class="form-control-submit-button">Request now</button>
                         </div>
