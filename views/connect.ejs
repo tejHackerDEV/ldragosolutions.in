@@ -110,7 +110,7 @@
         <div class="container">
             <div class="row" style="text-align: center; margin-right: 20%;">
                 <div class="col-lg-12">
-                    <h2>Contact Information</h2>
+                    <h2>Contact <font color="#d70000">Information</font></h2>
                     <ul class="list-unstyled li-space-lg">
 
                         <li><i class="fas fa-map-marker-alt"></i> NGO Colony, Kadapa, Andhra Pradesh, INDIA</li>
@@ -121,170 +121,172 @@
                     </ul>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
-            <div class="row">
-
-                <div class="col-lg-6">
-
-                    <!-- connect Form -->
-                    <form id="connectForm" method="POST" action="/contactform">
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="name" name="name"
-                                onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));"
-                                required>
-                            <label class="label-control" for="cname">Name</label>
-
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control-input" id="mail" name="mail" required>
-                            <label class="label-control" for="cemail">Email</label>
-
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control-input" id="phone" name="phone"
-                                onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));"
-                                pattern="[1-9]{1}[0-9]{9}" maxlength="10" required>
-                            <label class="label-control" for="rphone">Phone</label>
-
-                        </div>
-                        <div class="form-group">
-                            <input type="date" class="form-control-input" id="date" name="date" required>
-                            <label class="label-control" for="date">Date</label>
-
-
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control-select" id="rselect" name="topic" required>
-                                <option class="select-option" value="" disabled selected>Interested in...</option>
-                                <option class="select-option" value="Mobile application">Mobile Applications</option>
-                                <option class="select-option" value="Web applications">Web applications</option>
-                                <option class="select-option" value="UI/UX Design">UI/UX Design</option>
-                                <option class="select-option" value="Usability Testing">Usability Testing</option>
-                                <option class="select-option" value="E-Commerce Solutions">E-Commerce Solutions</option>
-                                <option class="select-option" value="Web Hosting Service">Web Hosting Service</option>
-                                <option class="select-option" value="Domain Registration">Domain Registration</option>
-                            </select>
-
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Request now</button>
-                        </div>
-                    </form>
-                    <!-- end of connect form -->
-
-                </div> <!-- end of col -->
-                <div class="col-lg-6">
-                    <div class="map-responsive">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15453.078549354266!2d78.83778622807186!3d14.469200288179003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb36dede1cef7eb%3A0x42dd7284297c5c95!2sN.G.O%20Colony%2C%20Kadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1595347212856!5m2!1sen!2sin"
-                            width="500" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-                            aria-hidden="false" tabindex="0"></iframe>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
+           
         </div> <!-- end of container -->
     </div> <!-- end of form-2 -->
     <!-- end of connect -->
 
+    <div class="row" style="width: 90%; margin: auto;">
+
+        <div class="col-lg-6">
+
+            <!-- connect Form -->
+            <form id="connectForm" method="POST" action="/contactform">
+                <div class="form-group">
+                    <input type="text" class="form-control-input" id="name" name="name"
+                        onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));"
+                        required>
+                    <label class="label-control" for="cname">Name</label>
+
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control-input" id="mail" name="mail" required>
+                    <label class="label-control" for="cemail">Email</label>
+
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control-input" id="phone" name="phone"
+                        onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));"
+                        pattern="[1-9]{1}[0-9]{9}" maxlength="10" required>
+                    <label class="label-control" for="rphone">Phone</label>
+
+                </div>
+                <div class="form-group">
+                    <input type="date" class="form-control-input" id="date" name="date" required>
+                    <label class="label-control" for="date">Date</label>
 
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer-col">
-                        <h4>LDrago Solutions</h4>
-                        <p>Your product is in our hands</p>
-                    </div>
-                </div> <!-- end of col -->
+                </div>
+                <div class="form-group">
+                    <select class="form-control-select" id="rselect" name="topic" required>
+                        <option class="select-option" value="" disabled selected>Interested in...</option>
+                        <option class="select-option" value="Mobile application">Mobile Applications</option>
+                        <option class="select-option" value="Web applications">Web applications</option>
+                        <option class="select-option" value="UI/UX Design">UI/UX Design</option>
+                        <option class="select-option" value="Usability Testing">Usability Testing</option>
+                        <option class="select-option" value="E-Commerce Solutions">E-Commerce Solutions</option>
+                        <option class="select-option" value="Web Hosting Service">Web Hosting Service</option>
+                        <option class="select-option" value="Domain Registration">Domain Registration</option>
+                    </select>
 
+                </div>
 
-                <div class="col-md-2.5">
-                    <h4>Services We Provide</h4>
-                    <div class="footer-col middle">
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Mobile app development</div>
-                            </li>
+                <div class="form-group">
+                   <center> <button type="submit" class="form-control-submit-button">Request now</button></center>
+                </div>
+            </form>
+            <!-- end of connect form -->
 
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Web app development</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Web Hosting services</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">E-Commerce Solutions</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
+        </div> <!-- end of col -->
+        <div class="col-lg-6">
+            <div class="map-responsive">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15453.078549354266!2d78.83778622807186!3d14.469200288179003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb36dede1cef7eb%3A0x42dd7284297c5c95!2sN.G.O%20Colony%2C%20Kadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1595347212856!5m2!1sen!2sin"
+                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div> <!-- end of col -->
+    </div> <!-- end of row -->
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="footer-col">
+            <h4>LDrago Solutions</h4>
+            <p>Your product is in our hands</p>
+          </div>
+        </div>
+        <!-- end of col -->
 
-                <div class="col-md-2.5">
-                    <div class="footer-col middle" style="margin-left: 10%;">
-                        <ul class="list-unstyled li-space-lg">
-                            <br>
-                            <br>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Usability Testing</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">UI/UX Design</div>
-                            </li>
-                            <li class="media">
-                                <i class="fas fa-square"></i>
-                                <div class="media-body">Domain Registration</div>
-                            </li>
-                        </ul>
-                    </div>
-                </div> <!-- end of col -->
+        <div class="col-md-3">
+          <h4>Services We Provide</h4>
+          <div class="footer-col middle">
+            <ul class="list-unstyled li-space-lg">
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">Mobile app development</div>
+              </li>
 
-                <div class="col-md-4">
-                    <div class="footer-col last">
-                        <h4>Social Media</h4>
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/ldragosolutions/" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://twitter.com/SolutionsDrago" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="mailto:LdragoSolutions@gmail.com" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-google-plus-g fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/ldrago_solutions/" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/in/ldrago-solutions-0087031b1/" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->
-    <!-- end of footer -->
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">Web app development</div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">Web Hosting services</div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">E-Commerce Solutions</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of col -->
+
+        <div class="col-md-2">
+
+          <h4> <i class="fas fa-laptop" style="color: white;"></i></h4>
+          <div class="footer-col middle">
+            <ul class="list-unstyled li-space-lg">
+            
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">Usability Testing</div>
+              </li>
+              <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body">UI/UX Design</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end of col -->
+
+        <div class="col-md-4">
+          <div class="footer-col last">
+            <h4>Social Media</h4>
+            <span class="fa-stack">
+              <a href="https://www.facebook.com/ldragosolutions/" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://twitter.com/SolutionsDrago" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="mailto:LdragoSolutions@gmail.com" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-google-plus-g fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://www.instagram.com/ldrago_solutions/" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x"></i>
+              </a>
+            </span>
+            <span class="fa-stack">
+              <a href="https://www.linkedin.com/in/ldrago-solutions-0087031b1/" target="_blank">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+  </div>
+  <!-- end of footer -->
+  <!-- end of footer -->
 
 
     <!-- Scripts -->

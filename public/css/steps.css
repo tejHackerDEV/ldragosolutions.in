@@ -105,8 +105,8 @@
 }
 
 .step__image {
-  max-height: 100px;
-  max-width: 222px;
+  max-height: 150px;
+  max-width: 272px;
   margin-top: 8pt;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
