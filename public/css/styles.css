@@ -2110,13 +2110,13 @@ a:hover.back-to-top {
   #snackbar {
 	visibility: hidden;
 	min-width: 250px;
-	margin: auto;
 	background-color: #333;
 	color: #fff;
 	text-align: center;
 	border-radius: 2px;
 	padding: 16px;
 	position: fixed;
+	margin: auto;
 	z-index: 1;
 	bottom: 30px;
 	font-size: 17px;

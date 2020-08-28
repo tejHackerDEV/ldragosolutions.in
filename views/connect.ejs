@@ -2,194 +2,215 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- SEO Meta Tags -->
-    <meta name="description"
-        content="LDrago Solutions is a indian based software service startup dreamed to land the client business ideas in to real world.">
-    <meta name="author" content="LDragoSolutions">
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="LDrago Solutions is a indian based software service startup dreamed to land the client business ideas in to real world.">
+  <meta name="author" content="LDragoSolutions">
 
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content="LDragoSolutions" /> <!-- website name -->
-    <meta property="og:site" content="ldragosolutions.in" /> <!-- website link -->
-    <meta property="og:title" content="LDrago Solutions" /> <!-- title shown in the actual shared post -->
-    <meta property="og:description" content="We Build- We Test- We Deploy" />
-    <!-- description shown in the actual shared post -->
-    <meta property="og:image" content="images/logo.jpg" /> <!-- image link, make sure it's jpg -->
-    <meta property="og:url" content="images/logo.jpg" /> <!-- where do you want your post to link to -->
-    <meta property="og:type" content="Software Services" />
+  <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+  <meta property="og:site_name" content="LDragoSolutions" /> <!-- website name -->
+  <meta property="og:site" content="ldragosolutions.in" /> <!-- website link -->
+  <meta property="og:title" content="LDrago Solutions" /> <!-- title shown in the actual shared post -->
+  <meta property="og:description" content="We Build- We Test- We Deploy" />
+  <!-- description shown in the actual shared post -->
+  <meta property="og:image" content="images/logo.jpg" /> <!-- image link, make sure it's jpg -->
+  <meta property="og:url" content="images/logo.jpg" /> <!-- where do you want your post to link to -->
+  <meta property="og:type" content="Software Services" />
 
-    <!-- Website Title -->
-    <title>LDragoSolutions</title>
+  <!-- Website Title -->
+  <title>LDragoSolutions</title>
 
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
-        rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-    <link href="css/magnific-popup.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext"
+    rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/fontawesome-all.css" rel="stylesheet">
+  <link href="css/swiper.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
 
-    <!-- Favicon  -->
-    <link rel="icon" href="images/logo.png">
+  <!-- Favicon  -->
+  <link rel="icon" href="images/logo.png">
 </head>
 
 <body data-spy="scroll" data-target=".fixed-top">
 
-    <!-- Preloader -->
-    <div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+  <!-- Preloader -->
+  <div class="spinner-wrapper">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
     </div>
-    <!-- end of preloader -->
+  </div>
+  <!-- end of preloader -->
 
-    <div id="snackbar"><%- snackMsg.data %>
+  <div id="snackbar"><%- snackMsg.data %>
+
+  </div>
+
+  <% snackMsg.data="Connect with LDrago and schedule meet..." %>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <!-- Text Logo - Use this if you don't have a graphic logo -->
+    <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
+
+    <!-- Image Logo -->
+    <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
+
+    <!-- Mobile Menu Toggle Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-awesome fas fa-bars"></span>
+      <span class="navbar-toggler-awesome fas fa-times"></span>
+    </button>
+    <!-- end of mobile menu toggle button -->
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+
+          <a class="nav-link page-scroll" href="/">
+            Home
+          </a>
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link page-scroll" href="/ourworks">Our works</a>
+
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link page-scroll" href="/aboutus">About us</a>
+
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link page-scroll" href="/connect">
+            <font style=" border-bottom: 2px solid #cccccc;padding:2px;">Connect</font>
+          </a>
+
+        </li>
+      </ul>
 
     </div>
+  </nav> <!-- end of navbar -->
+  <!-- end of navbar -->
 
-    <% snackMsg.data="Connect with LDrago and schedule meet..." %>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Evolo</a> -->
 
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative"></a>
 
-        <!-- Mobile Menu Toggle Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-awesome fas fa-bars"></span>
-            <span class="navbar-toggler-awesome fas fa-times"></span>
-        </button>
-        <!-- end of mobile menu toggle button -->
+  <!-- connect -->
+  <div id="header" class="ex-header">
+    <div class="container">
+      <div class="row" style="text-align: center; margin-right: 20%;">
+        <div class="col-lg-12">
+          <h2>Contact <font color="#d70000">Information</font>
+          </h2>
+          <ul class="list-unstyled li-space-lg">
 
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+            <li><i class="fas fa-map-marker-alt"></i> NGO Colony, Kadapa, Andhra Pradesh, INDIA</li>
+            <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:7386220017"> +91 7386220017</a>
+            </li>
+            <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:ldragosolutions@gmail.com">
+                ldragosolutions@gmail.com</a></li>
+          </ul>
+        </div> <!-- end of col -->
+      </div> <!-- end of row -->
 
-                    <a class="nav-link page-scroll" href="/">
-                        Home
-                    </a>
-                </li>
+    </div> <!-- end of container -->
+  </div> <!-- end of form-2 -->
+  <!-- end of connect -->
 
-                <li class="nav-item">
+  <div class="row" style="width: 80%; margin: auto;">
 
-                    <a class="nav-link page-scroll" href="/ourworks">Our works</a>
+    <div class="col-lg-6">
 
-                </li>
-                <li class="nav-item">
-
-                    <a class="nav-link page-scroll" href="/aboutus">About us</a>
-
-                </li>
-
-                <li class="nav-item">
-
-                    <a class="nav-link page-scroll" href="/connect">
-                        <font style=" border-bottom: 2px solid #cccccc;padding:2px;">Connect</font>
-                    </a>
-
-                </li>
-            </ul>
+      <!-- connect Form -->
+      <form id="connectForm" method="POST" action="/contactform">
+        <div class="form-group">
+          <input type="text" class="form-control-input" id="name" name="name"
+            onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));"
+            required>
+          <label class="label-control" for="cname">Name</label>
 
         </div>
-    </nav> <!-- end of navbar -->
-    <!-- end of navbar -->
+        <div class="form-group">
+          <input type="email" class="form-control-input" id="mail" name="mail" required>
+          <label class="label-control" for="cemail">Email</label>
+
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control-input" id="phone" name="phone"
+            onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));"
+            pattern="[1-9]{1}[0-9]{9}" required>
+          <label class="label-control" for="rphone">Phone</label>
+
+        </div>
+        <div class="form-group">
+          <input type="date" class="form-control-input" id="date" name="date" onfocusout="validateDate()" required>
+          <label class="label-control" for="date">Date</label>
+          <span id="dateError" style="color: red;"> </span>
 
 
+          <script>
+            function validateDate() {
+
+              var date = document.getElementById("date").value;
+              var varDate = new Date(date); 
+              var today = new Date();
+              today.setHours(0, 0, 0, 0);
+              if (varDate < today) {
+                document.getElementById("date").value="";
+                document.getElementById("dateError").innerHTML="Select future date for schedule";
+              }else{
+                document.getElementById("dateError").innerHTML="";
+              }
+            }
 
 
-    <!-- connect -->
-    <div id="header" class="ex-header">
-        <div class="container">
-            <div class="row" style="text-align: center; margin-right: 20%;">
-                <div class="col-lg-12">
-                    <h2>Contact <font color="#d70000">Information</font></h2>
-                    <ul class="list-unstyled li-space-lg">
-
-                        <li><i class="fas fa-map-marker-alt"></i> NGO Colony, Kadapa, Andhra Pradesh, INDIA</li>
-                        <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:7386220017"> +91 7386220017</a>
-                        </li>
-                        <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:ldragosolutions@gmail.com">
-                                ldragosolutions@gmail.com</a></li>
-                    </ul>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-           
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of connect -->
-
-    <div class="row" style="width: 90%; margin: auto;">
-
-        <div class="col-lg-6">
-
-            <!-- connect Form -->
-            <form id="connectForm" method="POST" action="/contactform">
-                <div class="form-group">
-                    <input type="text" class="form-control-input" id="name" name="name"
-                        onkeypress="return ((event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123));"
-                        required>
-                    <label class="label-control" for="cname">Name</label>
-
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control-input" id="mail" name="mail" required>
-                    <label class="label-control" for="cemail">Email</label>
-
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control-input" id="phone" name="phone"
-                        onkeypress="return ( (event.charCode == 8 || event.charCode == 32 || (event.charCode >= 48 && event.charCode <= 57)));"
-                        pattern="[1-9]{1}[0-9]{9}" maxlength="10" required>
-                    <label class="label-control" for="rphone">Phone</label>
-
-                </div>
-                <div class="form-group">
-                    <input type="date" class="form-control-input" id="date" name="date" required>
-                    <label class="label-control" for="date">Date</label>
+          </script>
 
 
-                </div>
-                <div class="form-group">
-                    <select class="form-control-select" id="rselect" name="topic" required>
-                        <option class="select-option" value="" disabled selected>Interested in...</option>
-                        <option class="select-option" value="Mobile application">Mobile Applications</option>
-                        <option class="select-option" value="Web applications">Web applications</option>
-                        <option class="select-option" value="UI/UX Design">UI/UX Design</option>
-                        <option class="select-option" value="Usability Testing">Usability Testing</option>
-                        <option class="select-option" value="E-Commerce Solutions">E-Commerce Solutions</option>
-                        <option class="select-option" value="Web Hosting Service">Web Hosting Service</option>
-                        <option class="select-option" value="Domain Registration">Domain Registration</option>
-                    </select>
+        </div>
+        <div class="form-group">
+          <select class="form-control-select" id="rselect" name="topic" required>
+            <option class="select-option" value="" disabled selected>Interested in...</option>
+            <option class="select-option" value="Mobile application">Mobile Applications</option>
+            <option class="select-option" value="Web applications">Web applications</option>
+            <option class="select-option" value="UI/UX Design">UI/UX Design</option>
+            <option class="select-option" value="Usability Testing">Usability Testing</option>
+            <option class="select-option" value="E-Commerce Solutions">E-Commerce Solutions</option>
+            <option class="select-option" value="Web Hosting Service">Web Hosting Service</option>
+            <option class="select-option" value="Domain Registration">Domain Registration</option>
+          </select>
 
-                </div>
+        </div>
 
-                <div class="form-group">
-                   <center> <button type="submit" class="form-control-submit-button">Request now</button></center>
-                </div>
-            </form>
-            <!-- end of connect form -->
+        <div class="form-group">
+          <center> <button type="submit" class="form-control-submit-button">Request now</button></center>
+        </div>
+      </form>
+      <!-- end of connect form -->
 
-        </div> <!-- end of col -->
-        <div class="col-lg-6">
-            <div class="map-responsive">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15453.078549354266!2d78.83778622807186!3d14.469200288179003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb36dede1cef7eb%3A0x42dd7284297c5c95!2sN.G.O%20Colony%2C%20Kadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1595347212856!5m2!1sen!2sin"
-                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
-                    aria-hidden="false" tabindex="0"></iframe>
-            </div>
-        </div> <!-- end of col -->
-    </div> <!-- end of row -->
-<!-- Footer -->
-<div class="footer">
+    </div> <!-- end of col -->
+    <div class="col-lg-6">
+      <div class="map-responsive">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15453.078549354266!2d78.83778622807186!3d14.469200288179003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb36dede1cef7eb%3A0x42dd7284297c5c95!2sN.G.O%20Colony%2C%20Kadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1595347212856!5m2!1sen!2sin"
+          width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div> <!-- end of col -->
+  </div> <!-- end of row -->
+  <!-- Footer -->
+  <div class="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -231,7 +252,7 @@
           <h4> <i class="fas fa-laptop" style="color: white;"></i></h4>
           <div class="footer-col middle">
             <ul class="list-unstyled li-space-lg">
-            
+
               <li class="media">
                 <i class="fas fa-square"></i>
                 <div class="media-body">Usability Testing</div>
@@ -290,16 +311,16 @@
   <!-- end of footer -->
 
 
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    <script src="js/snackbar.js"></script> <!-- Custom scripts -->
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+  <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+  <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+  <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+  <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+  <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+  <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+  <script src="js/scripts.js"></script> <!-- Custom scripts -->
+  <script src="js/snackbar.js"></script> <!-- Custom scripts -->
 
 
 </body>
